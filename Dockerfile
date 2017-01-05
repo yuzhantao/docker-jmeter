@@ -23,4 +23,4 @@ VOLUME /var/lib/docker
 
 EXPOSE 8080
 
-ENTRYPOINT []
+ENTRYPOINT ["/usr/local/bin/dockerjenkins.sh"]
